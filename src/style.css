@@ -148,6 +148,10 @@ nav ul li a {
   justify-content: center;
 }
 
+.hero-left p{
+  margin: 1rem 0;
+}
+
 .hero-right{
   border-radius: var(--itemBorderRadius);
   box-shadow: rgba(0, 0, 0, 0.04) 3px;
@@ -242,12 +246,12 @@ nav ul li a {
 }
 
 /* Skills and Education */
-#skills-education {
+#skills {
   padding: 3rem 0;
   /* background-image: linear-gradient(to bottom, var(--primaryBackgroundColor), var(--thirdBackgroundColor)); */
 }
 
-.skills-education-conteiner {
+.skills-conteiner {
   background-color: var(--primaryBackgroundColor);
   border-radius: var(--itemBorderRadius);
   padding: 50px 88px;
@@ -279,6 +283,7 @@ nav ul li a {
   display: flex;
   justify-content: space-between;  
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 
@@ -296,7 +301,7 @@ nav ul li a {
 
 /* Footer */
 footer {
-  padding: 10rem 0 4rem 0;
+  padding: 4rem 0 4rem 0;
   background: var(--thirdBackgroundColor);
   text-align: center;
 }
