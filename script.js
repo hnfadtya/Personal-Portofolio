@@ -23,7 +23,7 @@ const projects = [
         tags: ["Java", "JavaFX"],
         github: "#",
         demo: null,
-        featured: true,
+        featured: false,
         category: "desktop"
     },
     {
@@ -35,7 +35,7 @@ const projects = [
         tags: ["Go", "Node.js"],
         github: "#",
         demo: null,
-        featured: true,
+        featured: false,
         category: "web"
     },
     {
@@ -65,7 +65,7 @@ const projects = [
     {
         id: 6,
         title: "Jabodetabek Transit Routing",
-        role: "Research · Algorithm Engineer",
+        role: "Researcher",
         description: "Research on finding the fastest route through public transportation networks in the Jakarta Metropolitan Area (Jabodetabek), covering KRL, MRT, TransJakarta, and LRT. Implemented and compared Uniform Cost Search (UCS) and A* Search for shortest travel time between stations.",
         images: ["../images/portfolio-6.png"],
         tags: ["Python", "Graph Algorithms", "AI"],
@@ -126,7 +126,6 @@ const projects = [
             "../images/Tubes2-AI/svm_training_process.gif",
             "../images/Tubes2-AI/loss_per_epoch.gif",
             "../images/Tubes2-AI/logreg_confusion_matrices.png",
-            "../images/Tubes2-AI/id3_vs_sklearn_comparison.png",
             "../images/Tubes2-AI/id3_vs_sklearn_comparison.png",
         ],
         tags: ["Python", "Scikit-Learn", "Matplotlib", "Seaborn"],
@@ -307,9 +306,9 @@ document.addEventListener('keydown', e => {
 
 const roles = [
     'cs.student @ ITB',
-    'web developer',
     'backend engineer',
-    'algorithm enthusiast',
+    'web developer',
+    'AI & ML enthusiast',
 ];
 let roleIdx = 0, charIdx = 0, deleting = false;
 

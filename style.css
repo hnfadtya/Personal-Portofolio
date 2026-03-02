@@ -318,6 +318,7 @@ nav a:hover::after { transform: scaleX(1); }
 
 .hero-desc {
     font-size: 1.05rem;
+    font-weight: 100;
     color: var(--text-2);
     max-width: 540px;
     margin-bottom: 2.5rem;
@@ -971,7 +972,7 @@ footer {
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     width: 100%;
-    max-width: 780px;
+    max-width: 980px;
     max-height: 90vh;
     overflow-y: auto;
     transform: translateY(20px) scale(0.97);
@@ -985,7 +986,7 @@ footer {
 /* Slideshow */
 .modal-slideshow {
     position: relative;
-    height: 280px;
+    height: 480px;
     background: var(--bg-3);
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     overflow: hidden;
