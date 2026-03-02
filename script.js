@@ -30,7 +30,7 @@ const projects = [
             "../images/OWCA-CourierApp/app-settings.png",
         ],
         tags: ["Java", "JavaFX"],
-        github: "#",
+        github: "#https://github.com/hnfadtya/O.W.C.A-Logistics-Courier-Management-App",
         demo: null,
         featured: false,
         category: "desktop"
@@ -42,51 +42,32 @@ const projects = [
         description: "A website that helps users find element combinations in Little Alchemy 2 using graph search algorithms. Users can enter a target element and select BFS or DFS to find single or multiple recipe paths. The Go backend handles the heavy graph traversal while the Node.js layer serves the frontend.",
         images: ["../images/portfolio-3.png"],
         tags: ["Go", "Node.js"],
-        github: "#",
+        github: "#https://github.com/hnfadtya/Tubes2_Aku-Suka-Yang-Little-little",
         demo: null,
         featured: false,
         category: "web"
     },
     {
         id: 4,
-        title: "Image & Music Retrieval System",
-        role: "Backend Developer",
-        description: "A program that performs image and audio recognition of songs and their album covers using PCA (Principal Component Analysis) and Query by Humming methods. The Python backend processes audio and image similarity while React handles the search interface.",
-        images: ["../images/portfolio-4.png"],
-        tags: ["React JS", "Python"],
-        github: "#",
+        title: "Enhancement of KNN, Decision Tree, and Logistic Regression Algorithms",
+        role: "ML Engineer",
+        description: "This repository contains implementations of machine learning algorithms built from scratch, without relying entirely on the library's internal implementation for its core logic. The project aims to compare the performance of a home-built model based on course material with a standard library model.",
+        images: [
+            "../images/Tubes2-AI/svm_training_process.gif",
+            "../images/Tubes2-AI/loss_per_epoch.gif",
+            "../images/Tubes2-AI/logreg_confusion_matrices.png",
+            "../images/Tubes2-AI/id3_vs_sklearn_comparison.png",
+        ],
+        tags: ["Python", "Scikit-Learn", "Matplotlib", "Seaborn"],
+        github: "#https://github.com/hnfadtya/Enchancement-of-SVM-DTL-and-Logistic-Regression",
         demo: null,
         featured: false,
         category: "ai"
     },
     {
         id: 5,
-        title: "Purry Leveling (RPG Game)",
-        role: "Software Developer",
-        description: "A C++-based application simulating a turn-based RPG with a dungeon system. Implements OOP principles from IF2010. Players choose from 5 character classes (Fighter, Mage, Assassin, Necromancer, Berserker), explore dungeons, fight monsters, collect items, and level up through a skill system.",
-        images: ["../images/portfolio-5.png"],
-        tags: ["C++", "OOP"],
-        github: "#",
-        demo: null,
-        featured: false,
-        category: "desktop"
-    },
-    {
-        id: 6,
-        title: "Jabodetabek Transit Routing",
-        role: "Researcher",
-        description: "Research on finding the fastest route through public transportation networks in the Jakarta Metropolitan Area (Jabodetabek), covering KRL, MRT, TransJakarta, and LRT. Implemented and compared Uniform Cost Search (UCS) and A* Search for shortest travel time between stations.",
-        images: ["../images/portfolio-6.png"],
-        tags: ["Python", "Graph Algorithms", "AI"],
-        github: "#",
-        demo: null,
-        featured: false,
-        category: "ai"
-    },
-    {
-        id: 7,
         title: "US Stock Market Dashboard",
-        role: "Fullstack Engineer",
+        role: "Fullstack Developer",
         description: "A full-stack web application for tracking and analyzing stock market data with real-time synchronization capabilities using Financial Modeling Prep (FMP) as a public api. Built with React, Node.js, Express, and PostgreSQL. Featured:\n- Dashboard Analytics\n- Data Management (CRUD)\n- Data Syncronization\n",
         images: [
             "../images/US-Stock-Market/Landing.png",
@@ -103,9 +84,9 @@ const projects = [
         category: "web"
     },
     {
-        id: 8,
+        id: 6,
         title: "Nimonspedia · Tokopedia's Cloning Website",
-        role: "Fullstack Engineer",
+        role: "Fullstack Developer",
         description: "Nimonspedia provides the main features for simulating transactions between buyers and sellers in the marketplace system, as well as several additional modern features, including:\nUser authentication (login, logout, registration)\n- Product management (product CRUD for sellers)\n- Shopping cart and checkout\n- Buyer order history\n- Seller order management\n- Automatic top-up and payments\n- Real-time chat between buyers and sellers (React + Node.js)\n- Product auctions (modern auction features)\n- Admin page (user management, monitoring, etc.)",
         images: [
             "../images/Nimonspedia/home.png",
@@ -127,25 +108,47 @@ const projects = [
         category: "web"
     },
     {
-        id: 9,
-        title: "Enhancement of KNN, Decision Tree, and Logistic Regression Algorithms",
-        role: "ML Engineer",
-        description: "This repository contains implementations of machine learning algorithms built from scratch, without relying entirely on the library's internal implementation for its core logic. The project aims to compare the performance of a home-built model based on course material with a standard library model.",
+        id: 7,
+        title: "Purry Leveling (RPG Game)",
+        role: "Software Developer",
+        description: "A C++-based application simulating a turn-based RPG with a dungeon system. Implements OOP principles from IF2010. Players choose from 5 character classes (Fighter, Mage, Assassin, Necromancer, Berserker), explore dungeons, fight monsters, collect items, and level up through a skill system.",
+        images: ["../images/portfolio-5.png"],
+        tags: ["C++", "OOP"],
+        github: "#https://github.com/hnfadtya/Tubes1-OOP-KKP",
+        demo: null,
+        featured: false,
+        category: "desktop"
+    },
+    {
+        id: 8,
+        title: "CV Analyzer App - An ATS-Based Recruitment Application",
+        role: "Backend Developer",
+        description: "This application is an implementation of the final project for IF2211 Algorithm Strategies, serving as a simple Applicant Tracking System (ATS). The system is capable of scanning and analyzing a collection of CV documents in PDF format to find the most relevant candidates based on a set of keywords provided by the user. This application utilizes various pattern matching algorithms to perform both exact and fuzzy matching searches.",
         images: [
-            "../images/Tubes2-AI/svm_training_process.gif",
-            "../images/Tubes2-AI/loss_per_epoch.gif",
-            "../images/Tubes2-AI/logreg_confusion_matrices.png",
-            "../images/Tubes2-AI/id3_vs_sklearn_comparison.png",
+            "../images/CV-Analyzer/home.png",
+            "../images/CV-Analyzer/summary.png"
         ],
-        tags: ["Python", "Scikit-Learn", "Matplotlib", "Seaborn"],
-        github: "#https://github.com/hnfadtya/Enchancement-of-SVM-DTL-and-Logistic-Regression",
+        tags: ["Python"],
+        github: "#https://github.com/hnfadtya/ATS-Based-CV-Analyzer-App",
+        demo: null,
+        featured: false,
+        category: "desktop"
+    },
+    {
+        id: 9,
+        title: "Image & Music Retrieval System",
+        role: "Backend Developer",
+        description: "A program that performs image and audio recognition of songs and their album covers using PCA (Principal Component Analysis) and Query by Humming methods. The Python backend processes audio and image similarity while React handles the search interface.",
+        images: ["../images/portfolio-4.png"],
+        tags: ["React JS", "Python"],
+        github: "#https://github.com/hnfadtya/Algeo02-23020",
         demo: null,
         featured: false,
         category: "ai"
-    }
+    },
 ];
 
-const skills = ["Java", "Python", "C++", "Go", "TypeScript", "React JS", "Node.js", "PostgreSQL", "Docker", "Git"];
+const skills = ["Java", "Python", "C++", "Go", "TypeScript", "React JS", "Node.js", "PostgreSQL", "Docker", "Scikit-Learn"];
 
 
 // ==================== RENDER FEATURED ==================== 
