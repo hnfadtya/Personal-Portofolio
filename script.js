@@ -73,6 +73,67 @@ const projects = [
         demo: null,
         featured: false,
         category: "ai"
+    },
+    {
+        id: 7,
+        title: "US Stock Market Dashboard",
+        role: "Fullstack Engineer",
+        description: "A full-stack web application for tracking and analyzing stock market data with real-time synchronization capabilities using Financial Modeling Prep (FMP) as a public api. Built with React, Node.js, Express, and PostgreSQL. Featured:\n- Dashboard Analytics\n- Data Management (CRUD)\n- Data Syncronization\n",
+        images: [
+            "../images/US-Stock-Market/Landing.png",
+            "../images/US-Stock-Market/Create.png",
+            "../images/US-Stock-Market/Dashboard.png",
+            "../images/US-Stock-Market/Data-Management.png",
+            "../images/US-Stock-Market/Delete.png",
+            "../images/US-Stock-Market/Edit.png",
+        ],
+        tags: ["Node.js", "React.js", "PostgreSQL", "Docker"],
+        github: "#https://github.com/hnfadtya/US-Stock-Market-Analytics-Website",
+        demo: null,
+        featured: true,
+        category: "web"
+    },
+    {
+        id: 8,
+        title: "Nimonspedia · Tokopedia's Cloning Website",
+        role: "Fullstack Engineer",
+        description: "Nimonspedia provides the main features for simulating transactions between buyers and sellers in the marketplace system, as well as several additional modern features, including:\nUser authentication (login, logout, registration)\n- Product management (product CRUD for sellers)\n- Shopping cart and checkout\n- Buyer order history\n- Seller order management\n- Automatic top-up and payments\n- Real-time chat between buyers and sellers (React + Node.js)\n- Product auctions (modern auction features)\n- Admin page (user management, monitoring, etc.)",
+        images: [
+            "../images/Nimonspedia/home.png",
+            "../images/Nimonspedia/dashboard.png",
+            "../images/Nimonspedia/admin-dashboard.png",
+            "../images/Nimonspedia/login.png",
+            "../images/Nimonspedia/cart.png",
+            "../images/Nimonspedia/checkout.png",
+            "../images/Nimonspedia/chat.png",
+            "../images/Nimonspedia/modif-buyer.png",
+            "../images/Nimonspedia/order-history.png",
+            "../images/Nimonspedia/order-management.png",
+            "../images/Nimonspedia/product-management.png",
+        ],
+        tags: ["PHP Native + Apache", "Node + Express", "React + Vite", "Nginx", "PostgreSQL", "Docker"],
+        github: "#https://github.com/hnfadtya/Nimonspedia",
+        demo: null,
+        featured: true,
+        category: "web"
+    },
+    {
+        id: 9,
+        title: "Enhancement of KNN, Decision Tree, and Logistic Regression Algorithms",
+        role: "ML Engineer",
+        description: "This repository contains implementations of machine learning algorithms built from scratch, without relying entirely on the library's internal implementation for its core logic. The project aims to compare the performance of a home-built model based on course material with a standard library model.",
+        images: [
+            "../images/Tubes2-AI/svm_training_process.gif",
+            "../images/Tubes2-AI/loss_per_epoch.gif",
+            "../images/Tubes2-AI/logreg_confusion_matrices.png",
+            "../images/Tubes2-AI/id3_vs_sklearn_comparison.png",
+            "../images/Tubes2-AI/id3_vs_sklearn_comparison.png",
+        ],
+        tags: ["Python", "Scikit-Learn", "Matplotlib", "Seaborn"],
+        github: "#https://github.com/hnfadtya/Enchancement-of-SVM-DTL-and-Logistic-Regression",
+        demo: null,
+        featured: false,
+        category: "ai"
     }
 ];
 
